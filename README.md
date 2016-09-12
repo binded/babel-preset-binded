@@ -1,6 +1,6 @@
 # babel-preset-blockai
 
-Babel preset for Blockai Node.js packages.
+Babel preset for Blockai Node.js packages. Based on [eslatest-node6](https://github.com/blockai/babel-preset-eslatest-node6) with object rest/spread enabled.
 
 ## Install
 
