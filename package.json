@@ -1,0 +1,50 @@
+{
+  "name": "babel-preset-blockai",
+  "version": "1.0.0",
+  "description": "Babel preset for Blockai Node.js packages",
+  "main": "./index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockai/babel-preset-blockai.git"
+  },
+  "keywords": [
+    "blockai",
+    "babel",
+    "preset",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018",
+    "es6",
+    "es7",
+    "es8",
+    "node"
+  ],
+  "author": "Oli Lalonde <olalonde@gmail.com> (https://syskall.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blockai/babel-preset-blockai/issues"
+  },
+  "homepage": "https://github.com/blockai/babel-preset-blockai#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "release": {
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/dist/lib/plugin-noop.js"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-es2015-parameters": "^6.11.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-eslatest-node6": "^1.0.1"
+  }
+}
