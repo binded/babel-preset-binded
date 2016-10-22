@@ -42,6 +42,7 @@
     }
   },
   "dependencies": {
+    "babel-plugin-istanbul": "^2.0.3",
     "babel-plugin-transform-es2015-destructuring": "^6.9.0",
     "babel-plugin-transform-es2015-parameters": "^6.11.4",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",

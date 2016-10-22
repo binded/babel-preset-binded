@@ -5,4 +5,11 @@ module.exports = {
     'transform-es2015-parameters',
     ['transform-object-rest-spread', { useBuiltIns: true }]
   ],
+  env: {
+    test: {
+      plugins: [
+        'istanbul',
+      ],
+    }
+  },
 }
