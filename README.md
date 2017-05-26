@@ -1,11 +1,11 @@
-# babel-preset-blockai
+# babel-preset-binded
 
-Babel preset for Blockai Node.js packages. Based on [eslatest-node6](https://github.com/blockai/babel-preset-eslatest-node6) with object rest/spread enabled.
+Babel preset for Binded Node.js packages. Based on [eslatest-node6](https://github.com/binded/babel-preset-eslatest-node6) with object rest/spread enabled.
 
 ## Install
 
 ```bash
-npm install --save-dev babel-preset-blockai
+npm install --save-dev babel-preset-binded
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ npm install --save-dev babel-preset-blockai
 
 ```json
 {
-  "presets": ["blockai"]
+  "presets": ["binded"]
 }
 ```

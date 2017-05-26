@@ -1,15 +1,15 @@
 {
-  "name": "babel-preset-blockai",
+  "name": "babel-preset-binded",
   "version": "1.1.0",
-  "description": "Babel preset for Blockai Node.js packages",
+  "description": "Babel preset for Binded Node.js packages",
   "main": "./index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blockai/babel-preset-blockai.git"
+    "url": "git+https://github.com/binded/babel-preset-binded.git"
   },
   "keywords": [
-    "blockai",
+    "binded",
     "babel",
     "preset",
     "es2015",
@@ -24,9 +24,9 @@
   "author": "Oli Lalonde <olalonde@gmail.com> (https://syskall.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blockai/babel-preset-blockai/issues"
+    "url": "https://github.com/binded/babel-preset-binded/issues"
   },
-  "homepage": "https://github.com/blockai/babel-preset-blockai#readme",
+  "homepage": "https://github.com/binded/babel-preset-binded#readme",
   "engines": {
     "node": ">=6"
   },
